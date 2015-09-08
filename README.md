@@ -29,3 +29,9 @@ What article or forum was most helpful to you in learning this?
   www.sthurlow.com offers a great refresher tutorial to reconnect with the syntax and basic concepts, ranging from installation to error handling.
 
 What are 3 interview questions one might be asked about this technology?
+
+Use:
+  Download stable release of Python.
+    Check version with terminal 'python -V'
+  Run .py extension files by first typing 'python'.
+    e.g. 'python helloworld.py'
