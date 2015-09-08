@@ -113,6 +113,7 @@ from operator import mul
 def multipliers():
     return [partial(mul, i) for i in range(4)]
 ```
+  -http://www.toptal.com/python/interview-questions
 
 ##Interview Question 3
 What will be the output of the code below? Explain your answer.
@@ -149,3 +150,4 @@ Therefore, setting x = 1 in the Parent class makes the class variable x (with a 
 Subsequently, if any of its child classes overrides that value (for example, when we execute the statement Child1.x = 2), then the value is changed in that child only. That’s why the second print statement outputs 1 2 1.
 
 Finally, if the value is then changed in the Parent (for example, when we execute the statement Parent.x = 3), that change is reflected also by any children that have not yet overridden the value (which in this case would be Child2). That’s why the third print statement outputs 3 2 3.
+  -http://www.toptal.com/python/interview-questions
